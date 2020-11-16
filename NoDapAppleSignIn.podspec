@@ -1,13 +1,14 @@
 
-  Pod::Spec.new do |s|
-    s.name = 'NoDapAppleSignIn'
-    s.version = '0.1.1'
-    s.summary = 'Capacitor Apple Sign in'
-    s.license = 'MIT'
-    s.homepage = 'https://github.com/no-dap/apple-sign-in'
-    s.author = 'no-dap <somniholic@naver.com>'
-    s.source = { :git => 'https://github.com/no-dap/apple-sign-in', :tag => s.version.to_s }
-    s.source_files = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}'
-    s.ios.deployment_target  = '11.0'
-    s.dependency 'Capacitor'
+  Pod::Spec.new do |spec|
+    spec.name = 'NoDapAppleSignIn'
+    spec.version = '0.1.1'
+    spec.summary = 'Capacitor Apple Sign in'
+    spec.license = 'MIT'
+    spec.homepage = 'https://github.com/no-dap/apple-sign-in'
+    spec.author = 'no-dap <somniholic@naver.com>'
+    spec.source = { :git => 'https://github.com/no-dap/apple-sign-in.git', :tag => spec.version.to_s }
+    spec.source_files = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}'
+    spec.ios.deployment_target  = '11.0'
+    spec.dependency 'Capacitor'
+    spec.swift_version = '5.3'
   end
