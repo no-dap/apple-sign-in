@@ -1,5 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.getcapacitor.community.applesignin.applesignin">
 
-  <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.getcapacitor.community.applesignin.applesignin">
-  </manifest>
-  
+    <application>
+        <activity
+            android:name="com.getcapacitor.community.applesignin.LoginActivity"
+            android:theme="@style/AppTheme.Transparent"
+            android:label="LoginActivity"></activity>
+    </application>
+
+</manifest>

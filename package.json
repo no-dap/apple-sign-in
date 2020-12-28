@@ -14,7 +14,8 @@
   "author": "Max Lynch <max@ionic.io>",
   "license": "MIT",
   "dependencies": {
-    "@capacitor/core": "latest"
+    "@capacitor/core": "latest",
+    "scriptjs": "^2.5.9"
   },
   "devDependencies": {
     "typescript": "^3.2.4",
