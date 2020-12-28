@@ -52,12 +52,12 @@ public class SignInWithApple extends Plugin {
           .build();
     }
 
-    String scope = call.getString("scope", "name email");
+    String scopes = call.getString("scopes", "name email");
 
     authenticationUri =
       authenticationUri
         .buildUpon()
-        .appendQueryParameter("scope", scope)
+        .appendQueryParameter("scope", scopes)
         .appendQueryParameter("response_mode", "form_post")
         .build();
 
